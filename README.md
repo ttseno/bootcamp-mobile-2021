@@ -10,8 +10,8 @@
 
 ## Projetos
 
-- [Introdução React](#aula1-react) - Projeto para introdução dos conceitos de react
-- [Introdução Dart](#modulo1-dart) - Lógica usada para responder as perguntas do desafio prático 
-- [Android nativo](#modulo2-android-java) - Projeto de um jogo de Quiz feito para responder as perguntas do desafio prático de android nativo
+- [Introdução React](/tree/main/aula1-react) - Projeto para introdução dos conceitos de react
+- [Introdução Dart](https://github.com/ttseno/bootcamp-mobile-2021/tree/main/modulo1-dart) - Lógica usada para responder as perguntas do desafio prático 
+- [Android nativo](https://github.com/ttseno/bootcamp-mobile-2021/tree/main/modulo2-android-java/QuizIGTI) - Projeto de um jogo de Quiz feito para responder as perguntas do desafio prático de android nativo
 
 
