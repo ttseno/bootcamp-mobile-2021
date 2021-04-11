@@ -122,3 +122,6 @@ dist
 .cxx
 local.properties
 
+# react-native
+.expo
+
