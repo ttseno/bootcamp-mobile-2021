@@ -1,6 +1,9 @@
 import React, {useState} from "react";
-import {StyleSheet, SafeAreaView, Text} from "react-native"
+import {StyleSheet, SafeAreaView, Text, View} from "react-native"
 import {StatusBar} from 'expo-status-bar';
+
+import ShowList from "../components/list/ShowList";
+import ShowDetail from "../components/detail/ShowDetail";
 
 
 const ShowsScreen = () => {
@@ -8,8 +11,12 @@ const ShowsScreen = () => {
     return (
         <SafeAreaView style={styles.viewStyle}>
             <StatusBar style="auto" />
-
-            <Text>Shows screen</Text>
+            <View style={styles.listViewStyle}>
+                <ShowList/>
+            </View>
+            <View style={styles.detailViewStyle}>
+                <ShowDetail/>
+            </View>
         </SafeAreaView>
     )
 };
@@ -17,10 +24,17 @@ const ShowsScreen = () => {
 export default ShowsScreen;
 
 const styles = StyleSheet.create({
-    viewStyle: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    }    
+    viewStyle:{
+        flex:1
+    },
+    listViewStyle: {
+        flex: 3,
+        // backgroundColor: 'red',
+        // alignItems: 'stretch',
+    },
+    detailViewStyle:{
+        flex: 4,
+        // alignItems: 'center',
+        // justifyContent: 'center',
+    }
 })

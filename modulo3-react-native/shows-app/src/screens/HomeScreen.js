@@ -1,9 +1,7 @@
 import React, {useState} from "react";
-import {StyleSheet, SafeAreaView, Text, Button} from "react-native"
+import {StyleSheet, SafeAreaView, View, Text, Button} from "react-native"
 import {StatusBar} from 'expo-status-bar';
 
-import Input from '../components/form/Input'
-import SearchInput from '../components/form/SearchInput' 
 
 const HomeScreen = (props) => {
     [stateNome, setStateNome] = useState("");
@@ -12,7 +10,9 @@ const HomeScreen = (props) => {
     return (
         <SafeAreaView style={styles.viewStyle}>
             <StatusBar style="auto" />
-            <Text>Home screen</Text>
+            <View>
+               <Text>Series App</Text>
+            </View>
         </SafeAreaView>
     )
 };
