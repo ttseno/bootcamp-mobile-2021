@@ -30,7 +30,7 @@ class _TodoItemState extends State<TodoItem> {
   _saveItem() async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     var data = preferences.getString("todo_list");
-    debugPrint(data);
+
     List<Todo> todoList = [];
 
     if(data != null){
